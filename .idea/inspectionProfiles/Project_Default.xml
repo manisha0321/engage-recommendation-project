@@ -1,0 +1,64 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="CssUnknownProperty" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myCustomPropertiesEnabled" value="true" />
+      <option name="myIgnoreVendorSpecificProperties" value="false" />
+      <option name="myCustomPropertiesList">
+        <value>
+          <list size="4">
+            <item index="0" class="java.lang.String" itemvalue="color-scheme" />
+            <item index="1" class="java.lang.String" itemvalue="button-color" />
+            <item index="2" class="java.lang.String" itemvalue="forced-color-adjust" />
+            <item index="3" class="java.lang.String" itemvalue="canvas" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="7">
+            <item index="0" class="java.lang.String" itemvalue="movie" />
+            <item index="1" class="java.lang.String" itemvalue="type" />
+            <item index="2" class="java.lang.String" itemvalue="alt" />
+            <item index="3" class="java.lang.String" itemvalue="margin-left" />
+            <item index="4" class="java.lang.String" itemvalue="padding-left" />
+            <item index="5" class="java.lang.String" itemvalue="i18n-content" />
+            <item index="6" class="java.lang.String" itemvalue="visible" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="13">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="centre" />
+            <item index="7" class="java.lang.String" itemvalue="form" />
+            <item index="8" class="java.lang.String" itemvalue="option" />
+            <item index="9" class="java.lang.String" itemvalue="label" />
+            <item index="10" class="java.lang.String" itemvalue="select" />
+            <item index="11" class="java.lang.String" itemvalue="span" />
+            <item index="12" class="java.lang.String" itemvalue="h7" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="tuple.iloc" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

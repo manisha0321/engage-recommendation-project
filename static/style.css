@@ -1,0 +1,389 @@
+body{
+    background-color: darkblue;
+}
+
+#logout{
+	font-size: 15px;
+	background-color: rgba(211,103,36,0.94);
+	color: #FFFFFF;
+	width: 80px;
+	border-style: outset;
+	border-color: rgba(7,120,17,0.94);
+}
+header {
+	font-family: 'Montserrat', 'serif';
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+}
+#logo {
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 12px;
+	width: 139px;
+	text-align: center;
+	color: black;
+	font-family: serif;
+	background-color: #ff5921;
+}
+#headerLinks {
+	float: left;
+	width: calc( 100% - 139px );
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 9px;
+	background-color: darkblue;
+}
+#headerLinks a {
+	text-decoration: none;
+	color: floralwhite;
+	padding-left: 2px;
+	padding-right: 10px;
+	font-size: 19px;
+}
+#offer {
+	font-family: 'Montserrat', sans-serif;
+	clear: both;
+	background-color: darkblue;
+	color: white;
+	padding-left: 20px;
+	padding-top: 100px;
+	padding-bottom: 5px;
+}
+#content {
+	clear: both;
+	overflow: hidden;
+	padding-top: 29px;
+	height: auto;
+}
+#main .men .gr{
+            font-size: 40px;
+	font-style: normal;
+	padding-top: 50px;
+	text-align: center;
+	padding-bottom: 50px;
+            color: white;
+        }
+#login{
+	font-size: 25px;
+	background-color: rgba(205,211,37,0.94);
+	margin-top: 20px;
+	color: black;
+	width: 80px;
+	border-style: outset;
+	border-color: white;
+}
+#content .sidebar {
+	font-family: 'Montserrat', sans-serif;
+	color: orangered;
+	text-align: center;
+	font-size: 18px;
+	float: left;
+	width: 100%;
+	background-color: white;
+	padding-top: 36px;
+	height: auto;
+}
+#content .mainContent {
+	float: left;
+	width: 70%;
+	text-align: center;
+	padding-left: 4%;
+}
+#content .sidebar #menubar {
+	text-align: center;
+	color: black;
+	font-family: "Franklin Gothic Medium Cond", cursive;
+	position: relative;
+}
+#content .sidebar .menu #movie {
+	width: 20%;
+	border-radius: 50px;
+	border-style: ridge;
+	border-width: 4px;
+	height: 30px;
+	text-align: center;
+	color: black;
+	background-color: white;
+	font-size: 18px;
+	margin-bottom: 14px;
+}
+#mainWrapper {
+	position: relative;
+	z-index: 2;
+	background-color: white;
+	box-sizing: border-box;
+	display: block;
+}
+#recommend{
+	font-size: 20px;
+}
+button{
+	border-radius: 4px;
+	border-width: 4px;
+	border-style: dashed;
+	border-color: #2638ff;
+	width: auto;
+	color: #FFFFFF;
+	background-color: #2638ff;
+}
+.sidebar #menubar .menu {
+	margin-bottom: 29px;
+}
+#content #movie_name {
+	color: white;
+}
+@media screen and (max-width:700px) {
+#content .sidebar {
+	float: none;
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	padding-left: 12%;
+	padding-top: 0;
+}
+#content {
+	position: relative;
+	top: -22px;
+	width: 100%;
+	overflow: hidden;
+}
+.sidebar #menubar .menu {
+	width: 100%;
+	text-align: center;
+	position: relative;
+	top: 16px;
+}
+#content .sidebar #menubar {
+	position: relative;
+	left: -7%;
+	overflow: hidden;
+	width: 95%;
+	padding-top: 0;
+}
+#mainWrapper #offer p {
+	font-size: small;
+}
+#mainWrapper #content .mainContent {
+	overflow: hidden;
+	width: 95%;
+	margin-top: 40px;
+}
+header #headerLinks a {
+	padding-left: 0;
+	padding-right: 30px;
+}
+#mainWrapper #offer {
+	padding-left: 22%;
+}}
+footer{
+	background-color: darkblue;
+	width: 100%;
+	height: 250px;
+}
+@media screen and (max-width : 478px ) {
+	/*Container for links in header */
+	#mainWrapper header #logo {
+		width: 100%;
+		height: auto;
+		text-align: center;
+	}
+	header #headerLinks a {
+		text-align: center;
+		padding-right: 15px;
+		padding-left: 0;
+	}
+	#mainWrapper #offer {
+		padding-left: 0;
+		text-align: right;
+	}
+	#content .sidebar #menubar {
+		position: relative;
+		left: -8%;
+		text-align: center;
+	}
+	.footer_banner {
+		background-color: darkblue;
+		padding-top: 60px;
+		padding-bottom: 600PX;
+		margin-bottom: 0;
+		margin-left: 200px;
+		align-content: center;
+		text-align: center;
+		padding-left: 20px;
+	}
+	footer {
+		display: inline-block;
+	}
+	.footer_banner .hero_header {
+		color: #FFFFFF;
+		text-align: center;
+		align-content: center;
+		font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+		margin-top: 0;
+		margin-right: 0;
+		margin-bottom: 0;
+		margin-left: 0;
+		letter-spacing: 4px;
+	}
+	.footer_banner a {
+		align-content: center;
+		text-align: center;
+		padding-left: 200px;
+	}
+}
+@media (forced-colors: active){
+	#logo{
+		forced-color-adjust: none;
+	}
+	#content #movie_name {
+		forced-color-adjust: none;
+	}
+	#content .sidebar h5{
+		forced-color-adjust: none;
+	}
+	#offer h1{
+		forced-color-adjust: none;
+	}
+}
+
+@media (prefers-color-scheme: dark){
+	body{
+		background-color: black;
+		color: white;
+	}
+	#logo{
+		color: black;
+		background-color: rgba(36,207,3,0.94);
+	}
+	#mainWrapper{
+		background-color: black;
+		color: white;
+	}
+	#content #movie_name {
+		color: black;
+	}
+	#headerLinks {
+		background-color: black;
+	}
+	#offer {
+		background-color: black;
+	}
+	#offer h1{
+		color: yellow;
+	}
+	#offer p{
+		color: rgba(188,247,14,0.94)
+	}
+	#content {
+		background-color: black;
+	}
+	.sidebar{
+		background-color: black;
+	}
+	#content .sidebar{
+		background-color: rgba(91,5,128,0.95);
+	}
+	#content .sidebar h5{
+		color: orangered;
+	}
+	#content .sidebar #menubar{
+		color: orangered;
+	}
+	button{
+		background-color: #FFFFFF;
+		color: #2638ff;
+		border-style: solid;
+	}
+    .footer_banner{
+		background-color: black;
+	}
+	#google_translate_element{
+		background-color: black;
+	}
+	#contact{
+		background-color: black;
+	}
+	footer{
+		background-color: black;
+	}
+	#details{
+		background-color: black;
+	}
+
+}
+.hero_header{
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 20px;
+	margin-top: 20px;
+	font-size: 25px;
+}
+.linkedin{
+	padding-right:10px;
+	align-content: center;
+}
+.gmail{
+	padding-left:10px;
+	padding-right:17px;
+}
+button:hover {
+	color: #2638ff;
+	background-color: white;
+	border-style: ridge;
+	font-size: 15px;
+	border-radius: 4px;
+	border-color: #2638ff;
+	cursor: pointer;
+	opacity: inherit;
+	transform: scale(1.0);
+	transition: all .2s ease;
+}
+h3 {
+	color: #6610f2;
+	font-size: 26px;
+	padding-left: 25px;
+	font-style: oblique;
+}
+h2{
+	color: darkviolet;
+	padding-left: 15px;
+	font-size: 40px;
+	font-family: "DejaVu Sans", serif;
+}
+h5{
+	color: #6610f2;
+	font-size: 35px;
+	font-family: inherit;
+}
+h1{
+	color: white;
+	font-size: 45px;
+	font-family: "Century Schoolbook", serif;
+	text-align: center;
+}
+h7 {
+	color: #ff2810;
+	font-size: 20px;
+	text-align: center;
+	align-content: center;
+	padding-left: 20px;
+}
+p{
+	padding-right: 20px;
+	text-align: center;
+	font-style: oblique;
+	color: #ff9920;
+	border-style: inherit;
+}
+h6{
+	color: orangered;
+	font-size: 20px;
+	margin-top: 1px;
+	padding-left: 30px;
+	padding-right: 550px;
+}
+#details{
+	text-align: center;
+}
