@@ -35,7 +35,7 @@ Google Login API
 
 ## Application Setup
 Clone the project
-`git clone https://github.com/manisha0321/engage-project.git`
+`git clone https://github.com/manisha0321/engage-recommendation-project.git`
 Create the virtual environment and install the packages that are packages that are mentioned in `requirement.txt`
 app.secret_key = 'manisha0321'
 
