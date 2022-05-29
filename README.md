@@ -19,7 +19,7 @@ Google Login API
 
 
 ## Features
-1.High Contrast\ 
+1.High Contrast\
 2.Dark mode\
 3.Like button for further recommendation\
 4.Easy Navigation\
