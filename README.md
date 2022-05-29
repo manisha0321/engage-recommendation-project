@@ -11,8 +11,8 @@ filtering.
 See the demo video here:
 
 ## Tech Stack
-HTML
-CSS
+HTML\
+CSS\
 JAVASCRIPT
 Flask
 Python
@@ -22,7 +22,7 @@ Google Login API
 
 
 ## Features
-1.High Contrast #l
+1.High Contrast 
 2.Dark mode
 3.Like button for further recommendation
 4.Easy Navigation
@@ -38,7 +38,7 @@ Clone the project
 `git clone https://github.com/manisha0321/engage-recommendation-project.git`
 Create the virtual environment and install the packages that are packages that are mentioned in `requirement.txt`
 app.secret_key = 'manisha0321'
-#l
+
 
 Download: https://drive.google.com/file/d/12W6rRJ1C-qkbjy9RFKM3c-ZzoGUMhuLZ/view?usp=sharing for documents.
 
