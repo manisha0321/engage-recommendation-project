@@ -4,8 +4,7 @@ Here is my project for Microsoft Engage 2022 Program:
 ## Med Flix
 Stop searching, Strat exploring!!!\
 All the features in one place which provides recommendation for movies on the choices of user which are based on content based filtering.\
-\
-See the demo video here:
+
 
 ## Tech Stack
 HTML\
