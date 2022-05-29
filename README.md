@@ -15,9 +15,9 @@ Flask\
 Python\
 JSON\
 Google Translate API\
-Google Login API\
+Google Login API
 
-\
+
 ## Features
 1.High Contrast\ 
 2.Dark mode\
@@ -28,7 +28,7 @@ Google Login API\
 7.Details of movie with poster\
 8.Display result in same page\
 9.Google Translator\
-10.Wonderful UI experience\
+10.Wonderful UI experience
 
 ## Application Setup
 Clone the project\
