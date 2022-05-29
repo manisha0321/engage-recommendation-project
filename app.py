@@ -12,7 +12,6 @@ from google_auth_oauthlib.flow import Flow
 from pip._vendor import cachecontrol
 import google.auth.transport.requests
 
-
 # load the data from the csv file to a pandas dataframe
 movies = pd.read_csv('tmdb_5000_movies.csv')
 credits = pd.read_csv('tmdb_5000_credits.csv')
@@ -188,13 +187,17 @@ def main():
             x = "<p><br clear = \"left\" ><img src=\"" + posters[
                 j] + "\" align=\"right\" border = \"3px\" width=\"481\" height=\"721\"/><h2>" + i + "<br><br><h3>Genre:<h6>" + \
                 genre[j] + "<h3>Cast:<h6>" + cast[j] + "<h3>Overview:<h6>" + overview[
-                    j] + "<br><h3>Do you like this movie?&nbsp&nbsp<form action=\"/main\" class=\"grid\" method=\"POST\"><input id=\"movie\" name=\"fname\" type=\"hidden\" value=\"" + i + "\"/><br><button type=\"submit\"><img src=\"https://th.bing.com/th/id/OIP.MsthooL7A0ZSxg1fv8nglAHaHa?pid=ImgDet&rs=1\" height =\"50\" width=\"50\" alt=\"Like\"/></button></form>" + "</p><br><br><br>"
+                    j] + "<br><h3>Do you like this movie?&nbsp&nbsp<form action=\"/main\" class=\"grid\" method=\"POST\"><input id=\"movie\" name=\"fname\" type=\"hidden\" value=\"" + i + "\"/><button type=\"submit\"><img src=\"https://th.bing.com/th/id/OIP.l_3IZDAnM9URIDtL9mQvCgHaHa?w=205&h=205&c=7&r=0&o=5&dpr=1.25&pid=1.7\" height =\"50\" width=\"50\" alt=\"Like\"/></button></form>" + "</p><br><br><br>"
             y = y + x
             j = j + 1
         y = y + " "
         f = open(".\\templates\\index.html", "r")
         old_text = f.read()
         new_text = old_text.replace("Result", y)
+        try:
+            new_text = new_text.replace("Welcome!", "Welcome "+session["name"]+"!")
+        except:
+            print(session["name"])
         return new_text
     return render_template('index.html')
 

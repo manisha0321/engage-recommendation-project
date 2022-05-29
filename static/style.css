@@ -3,7 +3,7 @@ body{
 }
 
 #logout{
-	font-size: 15px;
+	font-size: 17px;
 	background-color: rgba(211,103,36,0.94);
 	color: #FFFFFF;
 	width: 80px;
@@ -19,7 +19,7 @@ header {
 #logo {
 	float: left;
 	padding-top: 10px;
-	padding-bottom: 12px;
+	padding-bottom: 13px;
 	width: 139px;
 	text-align: center;
 	color: black;
@@ -375,6 +375,13 @@ p{
 	text-align: center;
 	font-style: oblique;
 	color: #ff9920;
+	border-style: inherit;
+}
+h8 {
+	padding-right: 20px;
+	text-align: center;
+	font-style: oblique;
+	color: yellow;
 	border-style: inherit;
 }
 h6{
